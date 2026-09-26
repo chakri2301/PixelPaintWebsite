@@ -1,0 +1,19 @@
+#t1{
+    background-color: blue;
+}
+.tile{
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    background-color: red;
+    margin: 0px;
+    border: 1px black solid;
+}
+div{
+    margin:0px;
+    font-size: 0px;
+}
+#colorPicker{
+    width:50px;
+    height:50px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html> <!--Specifying that this is html 5 website-->
+<html>
+
+<head>
+    <title>Pixel Editor</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div>
+        <span class="tile" id="t0" onclick="ChangeColor(0)">0</span>
+        <span class="tile" id="t1" onclick="ChangeColor(1)">1</span>
+        <span class="tile" id="t2" onclick="ChangeColor(2)">2</span>
+        <span class="tile" id="t3" onclick="ChangeColor(3)">3</span>
+    </div>
+    <div>
+        <span class="tile" id="t4" onclick="ChangeColor(4)">4</span>
+        <span class="tile" id="t5" onclick="ChangeColor(5)">5</span>
+        <span class="tile" id="t6" onclick="ChangeColor(6)">6</span>
+        <span class="tile" id="t7" onclick="ChangeColor(7)">7</span>
+    </div>
+    <div>
+        <span class="tile" id="t8" onclick="ChangeColor(8)">8</span>
+        <span class="tile" id="t9" onclick="ChangeColor(9)">9</span>
+        <span class="tile" id="t10" onclick="ChangeColor(10)">10</span>
+        <span class="tile" id="t11" onclick="ChangeColor(11)">11</span>
+    </div>
+    <div>
+        <span class="tile" id="t12" onclick="ChangeColor(12)">12</span>
+        <span class="tile" id="t13" onclick="ChangeColor(13)">13</span>
+        <span class="tile" id="t14" onclick="ChangeColor(14)">14</span>
+        <span class="tile" id="t15" onclick="ChangeColor(15)">15</span>
+    </div>
+    <input type="color" id="colorPicker" onchange="onColorInput(this.value)" />
+    <script src="./main.js"></script>
+</body>
+
+</html>
