@@ -1,12 +1,13 @@
 .tile {
     width: 10px;
     height: 10px;
-    display: inline-block;
     background-color: white;
     margin: 0px;
     vertical-align: middle;
     padding: 10px;
     user-select: none;
+    font-size: 0px;
+    border:none;
 }
 
 #boardWrapper {
