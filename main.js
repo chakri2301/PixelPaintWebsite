@@ -1,13 +1,20 @@
 var currentColor = "#000000";
 var isDraw = false;
 var picker = document.getElementById('colorPicker');
+var Tiles = [];
+const width = 16;
+const numberOfTiles = width * width;
+for (var i = 0; i < numberOfTiles; i++) {
+    var newTile = new Tile("t" + i);
+    Tiles.push(newTile);
+}
+console.log(Tiles)
 function onColorInput(e) {
     console.log(e);
     currentColor = e;
 }
 function ChangeColor(idx) {
-    var tile = document.getElementById("t" + idx);
-    tile.style.backgroundColor = currentColor;
+    Tiles[idx].SetColor(currentColor);
 }
 function Shot() {
     html2canvas(document.querySelector("#board")).then(canvas => {
@@ -19,7 +26,7 @@ function EnableEraser() {
     picker.value = "white";
 }
 function Clear() {
-    for (var i = 0; i < 64; i++) {
+    for (var i = 0; i < numberOfTiles; i++) {
         var tile = document.getElementById("t" + i);
         tile.style.backgroundColor = "white";
     }
@@ -32,17 +39,16 @@ function DrawEnd() {
 }
 function OnTileHover(idx) {
     if (isDraw) {
-        var tile = document.getElementById("t" + idx);
-        tile.style.backgroundColor = currentColor;
+        Tiles[idx].SetColor(currentColor);
     }
 }
 // Use programaric solutions
 // Don't waste water
 html = "";
-for (var i = 0; i < 64; i++) {
-    if (i % 8 == 0) {
+for (var i = 0; i < numberOfTiles; i++) {
+    if (i % width== 0) {
         html += '<br>'
     }
-    html += '<span class="tile" id="t' + i + '" onmousemove="OnTileHover(' + i + ')" onclick="ChangeColor(' + i + ')">0</span>\n';
+    html += '<span class="tile" id="t' + i + '" onmousemove="OnTileHover(' + i + ')" onclick="ChangeColor(' + i + ')">' + i + '</span>\n';
 }
 console.log(html);

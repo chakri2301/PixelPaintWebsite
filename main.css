@@ -1,9 +1,12 @@
 .tile {
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
     background-color: white;
     margin: 0px;
+    vertical-align: middle;
+    padding: 10px;
+    user-select: none;
 }
 
 #boardWrapper {
@@ -18,7 +21,7 @@
 }
 
 #board:hover .tile {
-    border: 1px black solid;
+    border: 0.2px black solid;
 }
 
 div {
@@ -33,4 +36,1044 @@ div {
 
 body {
     line-height: 0px;
+}
+
+/* Row 0 */
+#t0 {
+    background-color: #F73E20;
+}
+
+#t1 {
+    background-color: #F73E20;
+}
+
+#t2 {
+    background-color: #C4121A;
+}
+
+#t3 {
+    background-color: #A81818;
+}
+
+#t4 {
+    background-color: #F73E20;
+}
+
+#t5 {
+    background-color: #F73E20;
+}
+
+#t6 {
+    background-color: #C4121A;
+}
+
+#t7 {
+    background-color: #A81818;
+}
+
+#t8 {
+    background-color: #F73E20;
+}
+
+#t9 {
+    background-color: #F73E20;
+}
+
+#t10 {
+    background-color: #C4121A;
+}
+
+#t11 {
+    background-color: #A81818;
+}
+
+#t12 {
+    background-color: #F73E20;
+}
+
+#t13 {
+    background-color: #F73E20;
+}
+
+#t14 {
+    background-color: #C4121A;
+}
+
+#t15 {
+    background-color: #A81818;
+}
+
+/* Row 1 */
+#t16 {
+    background-color: #F73E20;
+}
+
+#t17 {
+    background-color: #C4121A;
+}
+
+#t18 {
+    background-color: #A81818;
+}
+
+#t19 {
+    background-color: #870B27;
+}
+
+#t20 {
+    background-color: #F73E20;
+}
+
+#t21 {
+    background-color: #C4121A;
+}
+
+#t22 {
+    background-color: #A81818;
+}
+
+#t23 {
+    background-color: #870B27;
+}
+
+#t24 {
+    background-color: #F73E20;
+}
+
+#t25 {
+    background-color: #C4121A;
+}
+
+#t26 {
+    background-color: #A81818;
+}
+
+#t27 {
+    background-color: #870B27;
+}
+
+#t28 {
+    background-color: #F73E20;
+}
+
+#t29 {
+    background-color: #C4121A;
+}
+
+#t30 {
+    background-color: #A81818;
+}
+
+#t31 {
+    background-color: #870B27;
+}
+
+/* Row 2 */
+#t32 {
+    background-color: #F73E20;
+}
+
+#t33 {
+    background-color: #C4121A;
+}
+
+#t34 {
+    background-color: #A81818;
+}
+
+#t35 {
+    background-color: #870B27;
+}
+
+#t36 {
+    background-color: #F73E20;
+}
+
+#t37 {
+    background-color: #C4121A;
+}
+
+#t38 {
+    background-color: #A81818;
+}
+
+#t39 {
+    background-color: #870B27;
+}
+
+#t40 {
+    background-color: #F73E20;
+}
+
+#t41 {
+    background-color: #C4121A;
+}
+
+#t42 {
+    background-color: #A81818;
+}
+
+#t43 {
+    background-color: #870B27;
+}
+
+#t44 {
+    background-color: #F73E20;
+}
+
+#t45 {
+    background-color: #C4121A;
+}
+
+#t46 {
+    background-color: #A81818;
+}
+
+#t47 {
+    background-color: #870B27;
+}
+
+/* Row 3 */
+#t48 {
+    background-color: #F73E20;
+}
+
+#t49 {
+    background-color: #C4121A;
+}
+
+#t50 {
+    background-color: #A81818;
+}
+
+#t51 {
+    background-color: #870B27;
+}
+
+#t52 {
+    background-color: #F73E20;
+}
+
+#t53 {
+    background-color: #C4121A;
+}
+
+#t54 {
+    background-color: #A81818;
+}
+
+#t55 {
+    background-color: #870B27;
+}
+
+#t56 {
+    background-color: #F73E20;
+}
+
+#t57 {
+    background-color: #C4121A;
+}
+
+#t58 {
+    background-color: #A81818;
+}
+
+#t59 {
+    background-color: #870B27;
+}
+
+#t60 {
+    background-color: #F73E20;
+}
+
+#t61 {
+    background-color: #C4121A;
+}
+
+#t62 {
+    background-color: #A81818;
+}
+
+#t63 {
+    background-color: #870B27;
+}
+
+/* Row 4 */
+#t64 {
+    background-color: #F73E20;
+}
+
+#t65 {
+    background-color: #C4121A;
+}
+
+#t66 {
+    background-color: #A81818;
+}
+
+#t67 {
+    background-color: #870B27;
+}
+
+#t68 {
+    background-color: #F73E20;
+}
+
+#t69 {
+    background-color: #C4121A;
+}
+
+#t70 {
+    background-color: #A81818;
+}
+
+#t71 {
+    background-color: #870B27;
+}
+
+#t72 {
+    background-color: #F73E20;
+}
+
+#t73 {
+    background-color: #C4121A;
+}
+
+#t74 {
+    background-color: #A81818;
+}
+
+#t75 {
+    background-color: #870B27;
+}
+
+#t76 {
+    background-color: #F73E20;
+}
+
+#t77 {
+    background-color: #C4121A;
+}
+
+#t78 {
+    background-color: #A81818;
+}
+
+#t79 {
+    background-color: #870B27;
+}
+
+/* Row 5 */
+#t80 {
+    background-color: #F8F3E8;
+}
+
+#t81 {
+    background-color: #F8F3E8;
+}
+
+#t82 {
+    background-color: #C5D0D2;
+}
+
+#t83 {
+    background-color: #F8F3E8;
+}
+
+#t84 {
+    background-color: #F8F3E8;
+}
+
+#t85 {
+    background-color: #F8F3E8;
+}
+
+#t86 {
+    background-color: #F8F3E8;
+}
+
+#t87 {
+    background-color: #F8F3E8;
+}
+
+#t88 {
+    background-color: #C5D0D2;
+}
+
+#t89 {
+    background-color: #F8F3E8;
+}
+
+#t90 {
+    background-color: #F8F3E8;
+}
+
+#t91 {
+    background-color: #C5D0D2;
+}
+
+#t92 {
+    background-color: #C5D0D2;
+}
+
+#t93 {
+    background-color: #F8F3E8;
+}
+
+#t94 {
+    background-color: #F8F3E8;
+}
+
+#t95 {
+    background-color: #C5D0D2;
+}
+
+/* Row 6 */
+#t96 {
+    background-color: #C5D0D2;
+}
+
+#t97 {
+    background-color: #F8F3E8;
+}
+
+#t98 {
+    background-color: #232323;
+}
+
+#t99 {
+    background-color: #232323;
+}
+
+#t100 {
+    background-color: #232323;
+}
+
+#t101 {
+    background-color: #C5D0D2;
+}
+
+#t102 {
+    background-color: #232323;
+}
+
+#t103 {
+    background-color: #C5D0D2;
+}
+
+#t104 {
+    background-color: #F8F3E8;
+}
+
+#t105 {
+    background-color: #232323;
+}
+
+#t106 {
+    background-color: #C5D0D2;
+}
+
+#t107 {
+    background-color: #232323;
+}
+
+#t108 {
+    background-color: #232323;
+}
+
+#t109 {
+    background-color: #232323;
+}
+
+#t110 {
+    background-color: #F8F3E8;
+}
+
+#t111 {
+    background-color: #C5D0D2;
+}
+
+/* Row 7 */
+#t112 {
+    background-color: #C5D0D2;
+}
+
+#t113 {
+    background-color: #C5D0D2;
+}
+
+#t114 {
+    background-color: #C5D0D2;
+}
+
+#t115 {
+    background-color: #232323;
+}
+
+#t116 {
+    background-color: #C5D0D2;
+}
+
+#t117 {
+    background-color: #C5D0D2;
+}
+
+#t118 {
+    background-color: #232323;
+}
+
+#t119 {
+    background-color: #232323;
+}
+
+#t120 {
+    background-color: #F8F3E8;
+}
+
+#t121 {
+    background-color: #232323;
+}
+
+#t122 {
+    background-color: #C5D0D2;
+}
+
+#t123 {
+    background-color: #C5D0D2;
+}
+
+#t124 {
+    background-color: #232323;
+}
+
+#t125 {
+    background-color: #C5D0D2;
+}
+
+#t126 {
+    background-color: #C5D0D2;
+}
+
+#t127 {
+    background-color: #C5D0D2;
+}
+
+/* Row 8 */
+#t128 {
+    background-color: #C5D0D2;
+}
+
+#t129 {
+    background-color: #C5D0D2;
+}
+
+#t130 {
+    background-color: #C5D0D2;
+}
+
+#t131 {
+    background-color: #232323;
+}
+
+#t132 {
+    background-color: #C5D0D2;
+}
+
+#t133 {
+    background-color: #C5D0D2;
+}
+
+#t134 {
+    background-color: #232323;
+}
+
+#t135 {
+    background-color: #C5D0D2;
+}
+
+#t136 {
+    background-color: #232323;
+}
+
+#t137 {
+    background-color: #232323;
+}
+
+#t138 {
+    background-color: #C5D0D2;
+}
+
+#t139 {
+    background-color: #C5D0D2;
+}
+
+#t140 {
+    background-color: #232323;
+}
+
+#t141 {
+    background-color: #C5D0D2;
+}
+
+#t142 {
+    background-color: #C5D0D2;
+}
+
+#t143 {
+    background-color: #C5D0D2;
+}
+
+/* Row 9 */
+#t144 {
+    background-color: #C5D0D2;
+}
+
+#t145 {
+    background-color: #93A0A2;
+}
+
+#t146 {
+    background-color: #93A0A2;
+}
+
+#t147 {
+    background-color: #232323;
+}
+
+#t148 {
+    background-color: #C5D0D2;
+}
+
+#t149 {
+    background-color: #93A0A2;
+}
+
+#t150 {
+    background-color: #232323;
+}
+
+#t151 {
+    background-color: #C5D0D2;
+}
+
+#t152 {
+    background-color: #C5D0D2;
+}
+
+#t153 {
+    background-color: #232323;
+}
+
+#t154 {
+    background-color: #C5D0D2;
+}
+
+#t155 {
+    background-color: #C5D0D2;
+}
+
+#t156 {
+    background-color: #232323;
+}
+
+#t157 {
+    background-color: #93A0A2;
+}
+
+#t158 {
+    background-color: #93A0A2;
+}
+
+#t159 {
+    background-color: #C5D0D2;
+}
+
+/* Row 10 */
+#t160 {
+    background-color: #93A0A2;
+}
+
+#t161 {
+    background-color: #93A0A2;
+}
+
+#t162 {
+    background-color: #C5D0D2;
+}
+
+#t163 {
+    background-color: #93A0A2;
+}
+
+#t164 {
+    background-color: #93A0A2;
+}
+
+#t165 {
+    background-color: #F8F3E8;
+}
+
+#t166 {
+    background-color: #93A0A2;
+}
+
+#t167 {
+    background-color: #93A0A2;
+}
+
+#t168 {
+    background-color: #93A0A2;
+}
+
+#t169 {
+    background-color: #C5D0D2;
+}
+
+#t170 {
+    background-color: #93A0A2;
+}
+
+#t171 {
+    background-color: #93A0A2;
+}
+
+#t172 {
+    background-color: #F8F3E8;
+}
+
+#t173 {
+    background-color: #93A0A2;
+}
+
+#t174 {
+    background-color: #93A0A2;
+}
+
+#t175 {
+    background-color: #93A0A2;
+}
+
+/* Row 11 */
+#t176 {
+    background-color: #F73E20;
+}
+
+#t177 {
+    background-color: #8E1519;
+}
+
+#t178 {
+    background-color: #701018;
+}
+
+#t179 {
+    background-color: #701018;
+}
+
+#t180 {
+    background-color: #A81716;
+}
+
+#t181 {
+    background-color: #8E1519;
+}
+
+#t182 {
+    background-color: #701018;
+}
+
+#t183 {
+    background-color: #701018;
+}
+
+#t184 {
+    background-color: #A81716;
+}
+
+#t185 {
+    background-color: #8E1519;
+}
+
+#t186 {
+    background-color: #701018;
+}
+
+#t187 {
+    background-color: #701018;
+}
+
+#t188 {
+    background-color: #A81716;
+}
+
+#t189 {
+    background-color: #8E1519;
+}
+
+#t190 {
+    background-color: #701018;
+}
+
+#t191 {
+    background-color: #701018;
+}
+
+/* Row 12 */
+#t192 {
+    background-color: #F73E20;
+}
+
+#t193 {
+    background-color: #A81716;
+}
+
+#t194 {
+    background-color: #8E1519;
+}
+
+#t195 {
+    background-color: #701018;
+}
+
+#t196 {
+    background-color: #F73E20;
+}
+
+#t197 {
+    background-color: #A81716;
+}
+
+#t198 {
+    background-color: #8E1519;
+}
+
+#t199 {
+    background-color: #701018;
+}
+
+#t200 {
+    background-color: #F73E20;
+}
+
+#t201 {
+    background-color: #A81716;
+}
+
+#t202 {
+    background-color: #8E1519;
+}
+
+#t203 {
+    background-color: #701018;
+}
+
+#t204 {
+    background-color: #F73E20;
+}
+
+#t205 {
+    background-color: #A81716;
+}
+
+#t206 {
+    background-color: #8E1519;
+}
+
+#t207 {
+    background-color: #701018;
+}
+
+/* Row 13 */
+#t208 {
+    background-color: #F73E20;
+}
+
+#t209 {
+    background-color: #A81716;
+}
+
+#t210 {
+    background-color: #8E1519;
+}
+
+#t211 {
+    background-color: #701018;
+}
+
+#t212 {
+    background-color: #F73E20;
+}
+
+#t213 {
+    background-color: #A81716;
+}
+
+#t214 {
+    background-color: #8E1519;
+}
+
+#t215 {
+    background-color: #701018;
+}
+
+#t216 {
+    background-color: #F73E20;
+}
+
+#t217 {
+    background-color: #A81716;
+}
+
+#t218 {
+    background-color: #8E1519;
+}
+
+#t219 {
+    background-color: #701018;
+}
+
+#t220 {
+    background-color: #F73E20;
+}
+
+#t221 {
+    background-color: #C4121A;
+}
+
+#t222 {
+    background-color: #8E1519;
+}
+
+#t223 {
+    background-color: #701018;
+}
+
+/* Row 14 */
+#t224 {
+    background-color: #F73E20;
+}
+
+#t225 {
+    background-color: #A81716;
+}
+
+#t226 {
+    background-color: #8E1519;
+}
+
+#t227 {
+    background-color: #701018;
+}
+
+#t228 {
+    background-color: #F73E20;
+}
+
+#t229 {
+    background-color: #A81716;
+}
+
+#t230 {
+    background-color: #8E1519;
+}
+
+#t231 {
+    background-color: #701018;
+}
+
+#t232 {
+    background-color: #F73E20;
+}
+
+#t233 {
+    background-color: #A81716;
+}
+
+#t234 {
+    background-color: #8E1519;
+}
+
+#t235 {
+    background-color: #701018;
+}
+
+#t236 {
+    background-color: #F73E20;
+}
+
+#t237 {
+    background-color: #A81716;
+}
+
+#t238 {
+    background-color: #8E1519;
+}
+
+#t239 {
+    background-color: #701018;
+}
+
+/* Row 15 */
+#t240 {
+    background-color: #A81716;
+}
+
+#t241 {
+    background-color: #8E1519;
+}
+
+#t242 {
+    background-color: #701018;
+}
+
+#t243 {
+    background-color: #701018;
+}
+
+#t244 {
+    background-color: #A81716;
+}
+
+#t245 {
+    background-color: #8E1519;
+}
+
+#t246 {
+    background-color: #701018;
+}
+
+#t247 {
+    background-color: #701018;
+}
+
+#t248 {
+    background-color: #A81716;
+}
+
+#t249 {
+    background-color: #8E1519;
+}
+
+#t250 {
+    background-color: #701018;
+}
+
+#t251 {
+    background-color: #701018;
+}
+
+#t252 {
+    background-color: #A81716;
+}
+
+#t253 {
+    background-color: #8E1519;
+}
+
+#t254 {
+    background-color: #701018;
+}
+
+#t255 {
+    background-color: #701018;
 }
