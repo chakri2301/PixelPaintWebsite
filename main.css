@@ -1,6 +1,4 @@
 .tile {
-    width: 10px;
-    height: 10px;
     background-color: white;
     margin: 0px;
     vertical-align: middle;
@@ -23,6 +21,11 @@
 
 #board:hover .tile {
     border: 0.2px black solid;
+}
+.color{
+    background-color: black;
+    padding: 10px;
+    font-size: 0px;
 }
 
 div {
