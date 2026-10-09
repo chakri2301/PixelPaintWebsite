@@ -64,6 +64,6 @@ for (var i = 0; i < numberOfTiles; i++) {
     if (i % width == 0) {
         html += '<br>'
     }
-    html += '<button class="tile" id="t' + i + '" onclick="ChangeColor(' + i + ')" onmousemove="OnTileHover(' + i + ')">' + i + '</button>\n';
+    html += '<button class="tile" id="t' + i + '" onclick="ChangeColor(' + i + ')" onmousemove="OnTileHover(' + i + ')"></button>\n';
 }
 console.log(html);
